@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JWTToken.Authentication\JWTToken.Authentication.csproj" />
+    <ProjectReference Include="..\JWTToken.Entity\JWTToken.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
